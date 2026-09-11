@@ -1,0 +1,96 @@
+{@BATCH|QAIC100||229|1||btest|210806023326||i30704CE8441CDV||RevA|
+{@BTEST|WQ03130NB8N01|04|210806023408|000010|0|all||n||210806023418||002
+{@BLOCK|2%j1%presence|00
+{@A-JUM|0|-2.182324E+08{@LIM2|+9.999999E+99|+2.000000E+04}}
+}
+{@BLOCK|2%j20%presence|00
+{@A-JUM|0|+9.517863E+07{@LIM2|+9.999999E+99|+2.000000E+04}}
+}
+{@TS|1|001|000|000|2%shorts
+{@RPT|----------------------------------------}
+{@RPT|Shorts Report for "2%shorts".}
+{@RPT|Fri Aug 06 02:34:12 2021}
+{@RPT|19X69-1A}
+{@RPT|BOARD 2 FAILED}
+{@RPT|----------------------------------------}
+{@RPT|Short #1, Thresh 56, Delay 25ms     Ohms}
+{@RPT|From: 2%VDD_NSP_MX_0P87       21442   33}
+{@RPT|                2%c147.1}
+{@RPT|                2%c147.3}
+{@RPT|               2%c147%c.1}
+{@RPT|                2%c148.1}
+{@RPT|                2%c148.3}
+{@RPT|               2%c148%c.1}
+{@RPT|                2%c361.1}
+{@RPT|                2%c362.1}
+{@RPT|                2%c363.1}
+{@RPT|                2%c364.1}
+{@RPT|Too many to print.}
+{@TS-S|04|00|2%VDD_NSP_MX_0P87
+{@RPT|To:   2%DGND                  21455   33}
+{@RPT|                2%c17.2}
+{@RPT|               2%c17%c.2}
+{@RPT|                2%c18.2}
+{@RPT|               2%c18%c.2}
+{@RPT|                2%c19.2}
+{@RPT|               2%c19%c.2}
+{@RPT|                2%c20.2}
+{@RPT|               2%c20%c.2}
+{@RPT|                2%c21.2}
+{@RPT|               2%c21%c.2}
+{@RPT|Too many to print.}
+{@RPT|      2%VREG_S3A_2A_1P1       21436   37}
+{@RPT|                2%c21.1}
+{@RPT|                2%c21.3}
+{@RPT|               2%c21%c.1}
+{@RPT|                2%c22.1}
+{@RPT|                2%c22.3}
+{@RPT|               2%c22%c.1}
+{@RPT|                2%c23.1}
+{@RPT|                2%c23.3}
+{@RPT|               2%c23%c.1}
+{@RPT|                2%c24.1}
+{@RPT|Too many to print.}
+{@RPT|      2%VDDCX_1_0P89         214141   36}
+{@RPT|                2%c149.1}
+{@RPT|                2%c149.3}
+{@RPT|               2%c149%c.1}
+{@RPT|                2%c150.1}
+{@RPT|                2%c150.3}
+{@RPT|               2%c150%c.1}
+{@RPT|                2%c170.1}
+{@RPT|                2%c171.1}
+{@RPT|                2%c335.1}
+{@RPT|                2%c336.1}
+{@RPT|Too many to print.}
+{@RPT|      2%VDD_NSP_CX_0P865      21444   34}
+{@RPT|                2%c179.1}
+{@RPT|                2%c267.1}
+{@RPT|                2%c268.1}
+{@RPT|                2%c382.1}
+{@RPT|                2%c382.3}
+{@RPT|               2%c382%c.1}
+{@RPT|                2%c383.1}
+{@RPT|                2%c383.3}
+{@RPT|               2%c383%c.1}
+{@RPT|                2%c384.1}
+{@RPT|Too many to print.}
+{@RPT|Common Devices:}
+{@RPT|                 2%c147}
+{@RPT|                2%c147%c}
+{@RPT|                 2%c148}
+{@RPT|                2%c148%c}
+{@RPT|                 2%c361}
+{@RPT|                 2%c362}
+{@RPT|                 2%c363}
+{@RPT|                 2%c364}
+{@RPT|                 2%c421}
+{@RPT|                2%c421%c}
+{@RPT|Too many to print.}
+{@RPT|Total of 5 nodes, Message is:  None.}
+{@TS-D\8|2%DGND|-23|2%VREG_S3A_2A_1P1|-19|2%VDDCX_1_0P89|-20|2%VDD_NSP_CX_0P865|-22}}
+{@RPT|------End, 1 Problem Reported-----------}
+}
+{@RPT|WQ03130NB8N01}
+{@RPT|Serial #: WQ03130NB8N01}
+}}

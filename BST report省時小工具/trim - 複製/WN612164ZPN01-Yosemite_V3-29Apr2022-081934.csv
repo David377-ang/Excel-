@@ -1,0 +1,14 @@
+Board Serial Number: WN612164ZPN01,,,,,,,
+Fixture ID: 2207,,,,,,,
+Board Test Status: Failed,,,,,,,
+User Name: Engineer,,,,,,,
+Operator ID: 111016002,,,,,,,
+Project Name: Yosemite_V3,,,,,,,
+Start Test Time: April 29 2022 08:19:33,,,,,,,
+End Test Time: April 29 2022 08:19:33,,,,,,,
+,,,,,,,
+Chain Name, Test Name, Test Status, Cover Extend Reading, Measured Value, Test Duration(ms), Additional Info, Test Flow Info
+, FixCMD.exe, Failed, , ,0, (IgnoreTestStatus) , 
+, FixCMD.exe, Passed, , ,0, (IgnoreTestStatus) True  , 
+, getsn.bat, Failed, , ,0, (IgnoreTestStatus) , 
+, Monitor P3V3_STBY, Failed, , P3V3_STBY(0.01),12.4199, , Retest 081928.575 #10

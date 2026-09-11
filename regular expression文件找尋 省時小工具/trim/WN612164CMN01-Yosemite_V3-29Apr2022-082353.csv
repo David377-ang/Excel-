@@ -1,0 +1,30 @@
+Board Serial Number: WN612164CMN01,,,,,,,
+Fixture ID: 2207,,,,,,,
+Board Test Status: Failed,,,,,,,
+User Name: Engineer,,,,,,,
+Operator ID: 111016002,,,,,,,
+Project Name: Yosemite_V3,,,,,,,
+Start Test Time: April 29 2022 08:23:33,,,,,,,
+End Test Time: April 29 2022 08:23:53,,,,,,,
+,,,,,,,
+Chain Name, Test Name, Test Status, Cover Extend Reading, Measured Value, Test Duration(ms), Additional Info, Test Flow Info
+, FixCMD.exe, Failed, , ,0, (IgnoreTestStatus) , 
+, FixCMD.exe, Passed, , ,0, (IgnoreTestStatus) True  , 
+, getsn.bat, Failed, , ,0, (IgnoreTestStatus) , 
+, Monitor P3V3_STBY, Passed, , P3V3_STBY(3.29),213.5198, , Retest 082333.132
+, Monitor P1V05_PCH_STBY, Passed, , P1V05_PCH_STBY(1.05),12.7504, , Retest 082333.847
+, Monitor PVCCIO_CPU, Passed, , PVCCIO_CPU(1.03),12.639, , Retest 082334.360
+, Drive Node, Passed, , TAP1_OUT5(3.00),62.0711, , 
+CPU_U1, integrity, Passed, , ,333.1876, , Retest 082335.289
+CPU_U1, idcode, Passed, , ,99.9724, , Retest 082335.289
+CPU_U1, disable, Failed, , ,5306.0677, , Retest 082335.289
+, FixCMD.exe, Passed, , ,0, True  , 
+, Drive Node, Failed, , TAP1_OUT5(3.00),3.9898, , 
+CPU_U1, integrity, Failed, , ,2.9922, , Retest 082347.071
+CPU_U1, idcode, Failed, , ,2.9926, , Retest 082347.071
+CPU_U1, disable, Failed, , ,2.9928, , Retest 082347.071
+, FixCMD.exe, Passed, , ,0, True  , 
+, Drive Node, Failed, , TAP1_OUT5(3.00),7.9845, , 
+CPU_U1, integrity, Failed, , ,9.9687, , Retest 082353.251
+CPU_U1, idcode, Failed, , ,3.9883, , Retest 082353.251
+CPU_U1, disable, Failed, , ,2.992, , Retest 082353.251

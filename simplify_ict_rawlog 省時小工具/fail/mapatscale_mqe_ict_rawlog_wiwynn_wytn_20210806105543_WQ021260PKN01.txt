@@ -1,0 +1,299 @@
+{@BATCH|QAIC100||229|1||btest|210806105522||i30704CE8441CDV||RevA|
+{@BTEST|WQ021260PKN01|06|210806105543|000008|0|all||n||210806105551||001
+{@BLOCK|1%j1%presence|00
+{@A-JUM|0|-3.687645E+09{@LIM2|+9.999999E+99|+2.000000E+04}}
+}
+{@BLOCK|1%j20%presence|00
+{@A-JUM|0|-7.413177E+08{@LIM2|+9.999999E+99|+2.000000E+04}}
+}
+{@TS|0|000|000|000|1%shorts
+}
+{@BLOCK|1%c17%c|00
+{@A-CAP|0|+1.813963E-04{@LIM3|+1.550000E-04|+1.940755E-04|+1.150100E-04}}
+}
+{@BLOCK|1%c21%c|00
+{@A-CAP|0|+7.904507E-04{@LIM3|+6.500000E-04|+9.100000E-04|+3.900000E-04}}
+}
+{@BLOCK|1%c25%c|00
+{@A-CAP|0|+7.101028E-05{@LIM3|+6.000000E-05|+7.548000E-05|+4.476000E-05}}
+}
+{@BLOCK|1%c41|00
+{@A-CAP|0|+7.600146E-05{@LIM3|+6.500000E-05|+8.177000E-05|+4.849000E-05}}
+}
+{@BLOCK|1%c147%c|00
+{@A-CAP|0|+2.120180E-04{@LIM3|+1.750000E-04|+2.198000E-04|+1.302000E-04}}
+}
+{@BLOCK|1%c335|00
+{@A-CAP|0|+7.843160E-04{@LIM3|+8.580000E-04|+1.247532E-03|+5.130840E-04}}
+}
+{@BLOCK|1%c76|00
+{@A-CAP|0|+3.782011E-03{@LIM3|+4.056000E-03|+6.084000E-03|+2.028000E-03}}
+}
+{@BLOCK|1%c38|00
+{@A-CAP|0|+5.883608E-05{@LIM3|+5.200000E-05|+6.697600E-05|+3.702400E-05}}
+}
+{@BLOCK|1%c48|00
+{@A-CAP|0|+2.385704E-03{@LIM3|+1.745000E-03|+2.443000E-03|+1.308750E-03}}
+}
+{@BLOCK|1%c110|00
+{@A-CAP|0|+1.581635E-05{@LIM3|+1.500000E-05|+1.876500E-05|+1.125000E-05}}
+}
+{@BLOCK|1%c109|00
+{@A-CAP|0|+1.565733E-05{@LIM3|+1.500000E-05|+1.876500E-05|+1.125000E-05}}
+}
+{@BLOCK|1%c57|00
+{@A-CAP|0|+4.208664E-06{@LIM3|+4.800000E-06|+6.028800E-06|+3.576000E-06}}
+}
+{@BLOCK|1%c36|00
+{@A-CAP|0|+1.127093E-05{@LIM3|+1.166000E-05|+1.462164E-05|+8.745000E-06}}
+}
+{@BLOCK|1%c42|00
+{@A-CAP|0|+2.751876E-05{@LIM3|+2.300000E-05|+2.893400E-05|+1.704300E-05}}
+}
+{@BLOCK|1%c46|00
+{@A-CAP|0|+3.351186E-05{@LIM3|+3.000000E-05|+3.759000E-05|+2.229000E-05}}
+}
+{@BLOCK|1%c56|00
+{@A-CAP|0|+2.766153E-06{@LIM3|+3.000000E-06|+3.750000E-06|+2.241000E-06}}
+}
+{@BLOCK|1%c58|00
+{@A-CAP|0|+1.872227E-06{@LIM3|+2.000000E-06|+2.502000E-06|+1.500000E-06}}
+}
+{@BLOCK|1%c59|00
+{@A-CAP|0|+2.681255E-06{@LIM3|+3.000000E-06|+3.750000E-06|+2.241000E-06}}
+}
+{@BLOCK|1%c61|00
+{@A-CAP|0|+2.646702E-06{@LIM3|+3.000000E-06|+3.750000E-06|+2.151000E-06}}
+}
+{@BLOCK|1%c438|00
+{@A-CAP|0|+8.963458E-07{@LIM3|+1.000000E-06|+1.259000E-06|+7.490000E-07}}
+{@RPT|----------------------------------------}
+{@RPT|19X69-1A}
+{@RPT|BOARD 1 FAILED}
+{@RPT|Fri Aug 06 10:55:48 2021}
+{@RPT|----------------------------------------}
+{@RPT|1%r89 HAS FAILED}
+{@RPT|CHIP RES 4.7K J 1/20W 0201}
+{@RPT|Measured:   53.405M}
+{@RPT|Nominal:    4.7000k}
+{@RPT|High Limit: 4.9547k}
+{@RPT|Low Limit:  4.4561k}
+{@RPT|Resistance in OHMS}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%r89|01
+{@A-RES|1|+5.340506E+07{@LIM3|+4.700000E+03|+4.954740E+03|+4.456070E+03}}
+{@RPT|1%r90 HAS FAILED}
+{@RPT|CHIP RES 4.7K J 1/20W 0201}
+{@RPT|Measured:   53.405M}
+{@RPT|Nominal:    4.7000k}
+{@RPT|High Limit: 4.9547k}
+{@RPT|Low Limit:  4.4561k}
+{@RPT|Resistance in OHMS}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%r90|01
+{@A-RES|1|+5.340506E+07{@LIM3|+4.700000E+03|+4.954740E+03|+4.456070E+03}}
+}
+{@BLOCK|1%r91|00
+{@A-JUM|0|+9.999999E+99{@LIM2|+9.999999E+99|+1.000000E+04}}
+{@RPT|1%r114 HAS FAILED}
+{@RPT|CHIP RES 4.7K J 1/20W 0201}
+{@RPT|Measured:   129.11M}
+{@RPT|Nominal:    4.7000k}
+{@RPT|High Limit: 4.9547k}
+{@RPT|Low Limit:  4.4561k}
+{@RPT|Resistance in OHMS}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%r114|01
+{@A-RES|1|+1.291137E+08{@LIM3|+4.700000E+03|+4.954740E+03|+4.456070E+03}}
+{@RPT|1%r225 HAS FAILED}
+{@RPT|CHIP RES 4.7K J 1/20W 0201}
+{@RPT|Measured:   -309.16M}
+{@RPT|Nominal:    4.7000k}
+{@RPT|High Limit: 4.9547k}
+{@RPT|Low Limit:  4.4561k}
+{@RPT|Resistance in OHMS}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%r225|01
+{@A-RES|1|-3.091584E+08{@LIM3|+4.700000E+03|+4.954740E+03|+4.456070E+03}}
+{@RPT|1%cr1%cr3_1 HAS FAILED}
+{@RPT|}
+{@RPT|REPLACE DEVICE: 1%cr1}
+{@RPT|IC DIODE TVS ARRAY AOZ8810DI-03 DFN 10P}
+{@RPT|High Limit: 1.1000}
+{@RPT|Low Limit:  428.00m}
+{@RPT|Forward VOLTAGE drop}
+{@RPT|Status:  cH}
+{@RPT|Moa Voltage/Current Compliance}
+{@RPT|Detector Over Range}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%cr1%cr3_1|01
+{@A-DIO|7|+1.019986E+00{@LIM2|+1.100000E+00|+4.280000E-01}}
+{@RPT|1%cr1%cr3_2 HAS FAILED}
+{@RPT|}
+{@RPT|REPLACE DEVICE: 1%cr1}
+{@RPT|IC DIODE TVS ARRAY AOZ8810DI-03 DFN 10P}
+{@RPT|High Limit: 987.00m}
+{@RPT|Low Limit:  428.00m}
+{@RPT|Forward VOLTAGE drop}
+{@RPT|Status:  cH}
+{@RPT|Moa Voltage/Current Compliance}
+{@RPT|Detector Over Range}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%cr1%cr3_2|01
+{@A-DIO|7|+1.004761E+00{@LIM2|+9.870000E-01|+4.280000E-01}}
+{@RPT|1%cr1%cr3_4 HAS FAILED}
+{@RPT|}
+{@RPT|REPLACE DEVICE: 1%cr1}
+{@RPT|IC DIODE TVS ARRAY AOZ8810DI-03 DFN 10P}
+{@RPT|High Limit: 987.00m}
+{@RPT|Low Limit:  428.00m}
+{@RPT|Forward VOLTAGE drop}
+{@RPT|Status:  cH}
+{@RPT|Moa Voltage/Current Compliance}
+{@RPT|Detector Over Range}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%cr1%cr3_4|01
+{@A-DIO|7|+1.010886E+00{@LIM2|+9.870000E-01|+4.280000E-01}}
+{@RPT|1%cr1%cr3_5 HAS FAILED}
+{@RPT|}
+{@RPT|REPLACE DEVICE: 1%cr1}
+{@RPT|IC DIODE TVS ARRAY AOZ8810DI-03 DFN 10P}
+{@RPT|High Limit: 987.00m}
+{@RPT|Low Limit:  428.00m}
+{@RPT|Forward VOLTAGE drop}
+{@RPT|Status:  cH}
+{@RPT|Moa Voltage/Current Compliance}
+{@RPT|Detector Over Range}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%cr1%cr3_5|01
+{@A-DIO|7|+1.013215E+00{@LIM2|+9.870000E-01|+4.280000E-01}}
+{@RPT|1%cr2%cr3_1 HAS FAILED}
+{@RPT|}
+{@RPT|REPLACE DEVICE: 1%cr2}
+{@RPT|IC DIODE TVS ARRAY AOZ8810DI-03 DFN 10P}
+{@RPT|High Limit: 987.00m}
+{@RPT|Low Limit:  428.00m}
+{@RPT|Forward VOLTAGE drop}
+{@RPT|Status:  cH}
+{@RPT|Moa Voltage/Current Compliance}
+{@RPT|Detector Over Range}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%cr2%cr3_1|01
+{@A-DIO|7|+1.009678E+00{@LIM2|+9.870000E-01|+4.280000E-01}}
+{@RPT|1%cr2%cr3_2 HAS FAILED}
+{@RPT|}
+{@RPT|REPLACE DEVICE: 1%cr2}
+{@RPT|IC DIODE TVS ARRAY AOZ8810DI-03 DFN 10P}
+{@RPT|High Limit: 987.00m}
+{@RPT|Low Limit:  428.00m}
+{@RPT|Forward VOLTAGE drop}
+{@RPT|Status:  cH}
+{@RPT|Moa Voltage/Current Compliance}
+{@RPT|Detector Over Range}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%cr2%cr3_2|01
+{@A-DIO|7|+1.008557E+00{@LIM2|+9.870000E-01|+4.280000E-01}}
+{@RPT|1%cr2%cr3_4 HAS FAILED}
+{@RPT|}
+{@RPT|REPLACE DEVICE: 1%cr2}
+{@RPT|IC DIODE TVS ARRAY AOZ8810DI-03 DFN 10P}
+{@RPT|High Limit: 987.00m}
+{@RPT|Low Limit:  428.00m}
+{@RPT|Forward VOLTAGE drop}
+{@RPT|Status:  cH}
+{@RPT|Moa Voltage/Current Compliance}
+{@RPT|Detector Over Range}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%cr2%cr3_4|01
+{@A-DIO|7|+1.006875E+00{@LIM2|+9.870000E-01|+4.280000E-01}}
+}
+{@BLOCK|1%cr2%cr3_5|00
+{@A-DIO|0|+8.372435E-01{@LIM2|+9.870000E-01|+4.280000E-01}}
+{@RPT|1%cr4%cr3_1 HAS FAILED}
+{@RPT|}
+{@RPT|REPLACE DEVICE: 1%cr4}
+{@RPT|IC DIODE TVS ARRAY AOZ8810DI-03 DFN 10P}
+{@RPT|High Limit: 987.00m}
+{@RPT|Low Limit:  428.00m}
+{@RPT|Forward VOLTAGE drop}
+{@RPT|Status:  cH}
+{@RPT|Moa Voltage/Current Compliance}
+{@RPT|Detector Over Range}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%cr4%cr3_1|01
+{@A-DIO|7|+9.902694E-01{@LIM2|+9.870000E-01|+4.280000E-01}}
+{@RPT|1%cr4%cr3_2 HAS FAILED}
+{@RPT|}
+{@RPT|REPLACE DEVICE: 1%cr4}
+{@RPT|IC DIODE TVS ARRAY AOZ8810DI-03 DFN 10P}
+{@RPT|High Limit: 987.00m}
+{@RPT|Low Limit:  408.00m}
+{@RPT|Forward VOLTAGE drop}
+{@RPT|Status:  cH}
+{@RPT|Moa Voltage/Current Compliance}
+{@RPT|Detector Over Range}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%cr4%cr3_2|01
+{@A-DIO|7|+9.981622E-01{@LIM2|+9.870000E-01|+4.080000E-01}}
+}
+{@BLOCK|1%cr4%cr3_4|00
+{@A-DIO|0|+4.784433E-01{@LIM2|+9.870000E-01|+4.280000E-01}}
+{@RPT|1%cr4%cr3_5 HAS FAILED}
+{@RPT|}
+{@RPT|REPLACE DEVICE: 1%cr4}
+{@RPT|IC DIODE TVS ARRAY AOZ8810DI-03 DFN 10P}
+{@RPT|High Limit: 987.00m}
+{@RPT|Low Limit:  408.00m}
+{@RPT|Forward VOLTAGE drop}
+{@RPT|Status:  cH}
+{@RPT|Moa Voltage/Current Compliance}
+{@RPT|Detector Over Range}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%cr4%cr3_5|01
+{@A-DIO|7|+9.878110E-01{@LIM2|+9.870000E-01|+4.080000E-01}}
+{@RPT|1%cr5%cr3_1 HAS FAILED}
+{@RPT|}
+{@RPT|REPLACE DEVICE: 1%cr5}
+{@RPT|IC DIODE TVS ARRAY AOZ8810DI-03 DFN 10P}
+{@RPT|High Limit: 987.00m}
+{@RPT|Low Limit:  408.00m}
+{@RPT|Forward VOLTAGE drop}
+{@RPT|Status:  cH}
+{@RPT|Moa Voltage/Current Compliance}
+{@RPT|Detector Over Range}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%cr5%cr3_1|01
+{@A-DIO|7|+9.946687E-01{@LIM2|+9.870000E-01|+4.080000E-01}}
+{@RPT|1%cr5%cr3_2 HAS FAILED}
+{@RPT|}
+{@RPT|REPLACE DEVICE: 1%cr5}
+{@RPT|IC DIODE TVS ARRAY AOZ8810DI-03 DFN 10P}
+{@RPT|High Limit: 987.00m}
+{@RPT|Low Limit:  408.00m}
+{@RPT|Forward VOLTAGE drop}
+{@RPT|Status:  cH}
+{@RPT|Moa Voltage/Current Compliance}
+{@RPT|Detector Over Range}
+{@RPT|----------------------------------------}
+}
+{@BLOCK|1%cr5%cr3_2|01
+{@A-DIO|7|+9.943237E-01{@LIM2|+9.870000E-01|+4.080000E-01}}
+{@RPT|WQ021260PKN01}
+{@RPT|Serial #: WQ021260PKN01}
+}
+}}

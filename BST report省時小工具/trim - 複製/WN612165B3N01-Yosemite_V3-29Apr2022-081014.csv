@@ -1,0 +1,51 @@
+Board Serial Number: WN612165B3N01
+Fixture ID: 2207
+Board Test Status: Passed
+User Name: Engineer
+Operator ID: 111016002
+Project Name: Yosemite_V3
+Start Test Time: April 29 2022 08:10:02
+End Test Time: April 29 2022 08:10:13
+
+Chain Name, Test Name, Test Status, Cover Extend Reading, Measured Value, Test Duration(ms), Additional Info, Test Flow Info
+, FixCMD.exe, Failed, , , 0, (IgnoreTestStatus) , 
+, FixCMD.exe, Passed, , , 0, (IgnoreTestStatus) True  , 
+, getsn.bat, Failed, , , 0, (IgnoreTestStatus) , 
+, Monitor P3V3_STBY, Passed, , P3V3_STBY(3.29), 212.4608, , Retest 081002.010
+, Monitor P1V05_PCH_STBY, Passed, , P1V05_PCH_STBY(1.06), 11.4358, , Retest 081002.724
+, Monitor PVCCIO_CPU, Passed, , PVCCIO_CPU(1.03), 9.683, , Retest 081003.236
+, Drive Node, Passed, , TAP1_OUT5(3.00), 61.2909, , 
+CPU_U1, integrity, Passed, , , 316.9715, , Retest 081004.160
+CPU_U1, idcode, Passed, , , 114.6157, , Retest 081004.160
+CPU_U1, disable, Passed, , , 115.7911, , Retest 081004.160
+CPU_U1, interconnect, Passed, , , 561.3024, , Retest 081005.784
+CPU_U1, pullup_pulldown, Passed, , , 204.5231, , Retest 081006.346
+CPU_U1, disable, Passed, , , 90.2993, , 
+, Drive Node, Passed, , TAP1_OUT5(3.00), 8.0071, , 
+, Drive Node, Passed, , TAP1_OUT5(3.00), 9.887, , 
+, Drive Node, Passed, , TAP2_OUT5(3.00), 9.8672, , 
+4DIMM, ct_4dimm_enable, Passed, , , 194.7673, , 
+4DIMM, integrity, Passed, , , 343.0634, , Retest 081007.495
+4DIMM, idcode, Passed, , , 106.261, , Retest 081007.495
+4DIMM, disable, Passed, , , 110.4454, , Retest 081007.495
+4DIMM, pullup_pulldown, Passed, , , 459.8347, , Retest 081008.057
+CPU-4DIMM, interconnect, Passed, , , 1527.5043, , Retest 081010.520
+4DIMM, disable, Passed, , , 95.8558, , 
+, Drive Node, Passed, , TAP1_OUT5(3.00), 10.0041, , 
+, Drive Node, Passed, , TAP2_OUT5(3.00), 9.4248, , 
+, Drive Node, Passed, , TAP2_OUT5(3.00), 9.3323, , 
+, Drive Node, Passed, , TAP2_OUT4(3.00), 8.6723, , 
+JCN21, integrity, Passed, , , 152.177, , Retest 081012.293
+JCN21, idcode, Passed, , , 101.9799, , Retest 081012.293
+JCN21, disable, Passed, , , 105.6051, , Retest 081012.293
+JCN21, interconnect, Passed, , , 210.8596, , Retest 081012.658
+JCN21, pullup_pulldown, Passed, , , 135.9704, , Retest 081012.869
+JCN21, disable, Passed, , , 91.2125, , 
+, Drive Node, Passed, , TAP2_OUT5(3.00), 10.7137, , 
+, Drive Node, Passed, , TAP2_OUT4(3.00), 9.6776, , 
+, Drive Node, Passed, , TAP1_OUT5(3.00), 9.7842, , 
+, Drive Node, Passed, , TAP1_OUT4(3.00), 8.2305, , 
+PCH_U3, integrity, Passed, , , 173.9054, , Retest 081013.570
+PCH_U3, idcode, Passed, , , 104.9652, , Retest 081013.570
+, Drive Node, Passed, , TAP1_OUT5(3.00), 11.9702, , 
+, Drive Node, Passed, , TAP1_OUT4(3.00), 10.2106, , 

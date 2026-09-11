@@ -1,0 +1,707 @@
+<html>
+<head>
+<title>易測性分析報告</title>
+</head>
+<style><!--p.MsoNormal{margin-bottom:0001pt; margin-top:0cm}--></style>
+<body>
+<FONT face=新細明體 size=1>
+<P align=center><FONT size=5 face=黑體><b>
+易測性分析報告<BR>
+</FONT></b></P>
+<P align=right><FONT size=3><b>
+Tebo-ICT<BR>
+Time: 20:29:46<BR>
+Date: 2021/9/9<BR>
+</FONT></b></P>
+<HR>
+<P align=center><FONT size=4 face=黑體><b><A name=#catalog>
+目錄<BR>
+</FONT></b></A></P>
+<P align=left>
+<A href=#catalog_1>基本資訊</A><BR>
+<BR>
+<A href=#catalog_3>網路分析</A><BR>
+<BR>
+<A href=#catalog_4>元件分析</A><BR>
+</P>
+<HR>
+<P align=center><FONT size=4 face=黑體><b><A name=#catalog_1>
+基本資訊<BR>
+</FONT></b></A></P>
+<Table width=100%>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>工作序號</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>測試類型</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>板名</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>21x029-sb-0902wyhq1715_v7</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>版本號</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>PCB 層數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>4</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>是否盲埋孔</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>NO</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>單板PCB外形尺寸(mil)</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>1181.10,1181.10</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>聯片數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>文件類型</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>工作文檔路徑</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>D:\MyProject\YV3.5\EVT FIO board_21X029-SB_DFX review\21x029-sb-0902wyhq1715_v7</FONT></td>
+</tr>
+</Table>
+<HR>
+<P align=center><FONT size=4 face=黑體><b><A name=#catalog_3>
+網路分析<BR>
+</FONT></b></A></P>
+<P align=right>
+<A href=#catalog>目錄</A><BR>
+</P>
+<A href=#InaccessNetDetail>不可植針網路明細：</A><BR>
+<A href=#NailMissingUnusePin>不可植針獨立腳網路明細：</A><BR>
+<BR>
+網路摘要<BR>
+<Table width=100%>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>總NET數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>29</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>網路總數(有被定義命名的網路)</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>29</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>連接2個以上元件腳的NET數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>22</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>75.9%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>只與單個元件腳相連的NET數（未植針）</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>0(0)</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>0.0%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>獨立元件腳的NET數（SMD）</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>1(0)</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>3.4%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>不與任何元件相連的NET數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>6</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>20.7%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>需植針NET數（DIP獨立腳）</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>23(1)</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>79.3%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>不可植針NET數（DIP獨立腳）</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>2(0)</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>8.7%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>可植針網路+已植但無需植網路（DIP獨立腳）</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>21+5(1)</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>91.3%</FONT></td>
+</tr>
+</Table>
+<BR>
+<P align=right>
+<A href=#catalog>目錄</A><BR>
+</P>
+<P align=left><A name=#InaccessNetDetail>
+不可植針網路明細：2<BR>
+</A></P>
+<Table width=100%>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Net</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Pin ref.</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Reason</FONT></td>
+</tr>
+<tr>
+<td align=left colspan=3 style='border:solid #339966 1.0pt'><FONT size=1>*.因VIA未開防焊而無法植針的NET：2條，占總不可植針NET的:100.0%</FONT></td>
+</tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>PWR_LED_R2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1><p class=MsoNormal>R10.2, LED1.0, </FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1><p class=MsoNormal>  1.SMD零件腳, Bot(1124.41, 698.82), LED1.0 Pin</p>
+<p class=MsoNormal>  2.SMD零件腳, Top(368.24, 186.88), R10.2 Pin</p>
+<p class=MsoNormal>  3.蓋油, Top(1119.70, 761.59), DRL VIA</p>
+<p class=MsoNormal>  4.蓋油, Bot(1119.70, 761.59), DRL VIA</p>
+</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>FAULT_LED_R2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1><p class=MsoNormal>R13.2, LED2.0, </FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1><p class=MsoNormal>  1.SMD零件腳, Top(368.24, 231.88), R13.2 Pin</p>
+<p class=MsoNormal>  2.SMD零件腳, Bot(1124.41, 1041.97), LED2.0 Pin</p>
+<p class=MsoNormal>  3.蓋油並元件覆蓋[LED2], Bot(1089.95, 1041.97), DRL VIA</p>
+<p class=MsoNormal>  4.蓋油, Top(1089.95, 1041.97), DRL VIA</p>
+</FONT></td>
+</tr>
+</Table>
+<BR>
+<P align=right>
+<A href=#catalog>目錄</A><BR>
+</P>
+<P align=left><A name=#NailMissingUnusePin>
+不可植針獨立腳網路明細：0<BR>
+</A></P>
+<Table width=100%>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Type</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Net Name</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Pin ref.</FONT></td>
+</tr>
+</Table>
+<HR>
+<P align=center><FONT size=4 face=黑體><b><A name=#catalog_4>
+元件分析<BR>
+</FONT></b></A></P>
+<P align=right>
+<A href=#catalog>目錄</A><BR>
+</P>
+<A href=#Parts with 40 or more pins>Parts with 40 or more pins</A><BR>
+<A href=#Parts with 16 - 39 pins>Parts with 16 - 39 pins</A><BR>
+<A href=#Parts with 4 - 15 pins>Parts with 4 - 15 pins</A><BR>
+<A href=#3-Pin Parts>3-Pin Parts</A><BR>
+<A href=#2-Pin Parts>2-Pin Parts</A><BR>
+<A href=#1-Pin Parts>1-Pin Parts</A><BR>
+<BR>
+元件摘要和元件腳位元植針覆蓋<BR>
+<Table width=100%>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>元件總數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>39</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>元件總腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>92</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>獨立元件腳數（SMD）</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>7(5)</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>7.6%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>需要植針元件腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>85</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>92.4%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>可植針腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>81(+6)</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>95.3%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>不可植針腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>4</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>4.7%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>Parts with 40 or more pins</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>0[0+0]</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>0.0%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>Parts with 16 - 39 pins</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>0[0+0]</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>0.0%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>Parts with 4 - 15 pins</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>3[1+2]</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>7.7%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>3-Pin Parts</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>2[2+0]</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>5.1%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>2-Pin Parts</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>26[26+0]</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>66.7%</FONT></td>
+</tr>
+<tr>
+<td align=right  style='border:solid #339966 1.0pt'><FONT size=1>1-Pin Parts</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>8[5+3]</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>20.5%</FONT></td>
+</tr>
+</Table>
+<P align=right>
+<A href=#catalog>目錄</A><BR>
+</P>
+<P align=left><A name=#Parts with 40 or more pins>
+Parts with 40 or more pins<BR>
+</A></P>
+<Table width=100%>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Name</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD/DIP</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Top/Bottom</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>不可植針腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>植針率</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>不可植針腳（備註：有'（'標記的腳為獨立腳）</FONT></td>
+</tr>
+</Table>
+<P align=right>
+<A href=#catalog>目錄</A><BR>
+</P>
+<P align=left><A name=#Parts with 16 - 39 pins>
+Parts with 16 - 39 pins<BR>
+</A></P>
+<Table width=100%>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Name</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD/DIP</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Top/Bottom</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>不可植針腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>植針率</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>不可植針腳（備註：有'（'標記的腳為獨立腳）</FONT></td>
+</tr>
+</Table>
+<P align=right>
+<A href=#catalog>目錄</A><BR>
+</P>
+<P align=left><A name=#Parts with 4 - 15 pins>
+Parts with 4 - 15 pins<BR>
+</A></P>
+<Table width=100%>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Name</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD/DIP</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Top/Bottom</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>不可植針腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>植針率</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>不可植針腳（備註：有'（'標記的腳為獨立腳）</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>U1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  8</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>CN1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>DIP</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1> 14</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>BTN1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>DIP</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>B</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  4</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+</Table>
+<P align=right>
+<A href=#catalog>目錄</A><BR>
+</P>
+<P align=left><A name=#3-Pin Parts>
+3-Pin Parts<BR>
+</A></P>
+<Table width=100%>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Name</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD/DIP</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Top/Bottom</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>不可植針腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>植針率</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>不可植針腳（備註：有'（'標記的腳為獨立腳）</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Q1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  3</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Q2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  3</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+</Table>
+<P align=right>
+<A href=#catalog>目錄</A><BR>
+</P>
+<P align=left><A name=#2-Pin Parts>
+2-Pin Parts<BR>
+</A></P>
+<Table width=100%>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Name</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD/DIP</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Top/Bottom</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>不可植針腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>植針率</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>不可植針腳（備註：有'（'標記的腳為獨立腳）</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>C3</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>C4</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>C6</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>C8</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R10</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>50.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>2, </FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R11</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R12</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R13</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>50.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>2, </FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R14</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R17</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R18</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R19</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R20</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R22</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R23</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R24</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R25</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R26</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R27</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R29</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R30</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R31</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R32</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>R33</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>LED1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>B</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>50.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>0, </FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>LED2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>B</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>50.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>0, </FONT></td>
+</tr>
+</Table>
+<P align=right>
+<A href=#catalog>目錄</A><BR>
+</P>
+<P align=left><A name=#1-Pin Parts>
+1-Pin Parts<BR>
+</A></P>
+<Table width=100%>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Name</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD/DIP</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>Top/Bottom</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>不可植針腳數</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>植針率</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>不可植針腳（備註：有'（'標記的腳為獨立腳）</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>NO_REFDES+4</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>NO_REFDES+5</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>NO_REFDES+1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>B</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>NO_REFDES+2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>B</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>NO_REFDES+3</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>SMD</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>B</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>H1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>DIP</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>H2</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>DIP</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  0</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>100.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>---</FONT></td>
+</tr>
+<tr>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>NO_REFDES+6</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>DIP</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>T</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>  1</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>0.0%</FONT></td>
+<td align=left  style='border:solid #339966 1.0pt'><FONT size=1>(DRL 1), </FONT></td>
+</tr>
+</Table>
+</FONT>
+</body>
+</html>
